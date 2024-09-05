@@ -1,0 +1,51 @@
+/*RESET CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*FAZ CAUCULOS AUTOMATICOS*/
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #323232;
+}
+
+.cabecalho{
+    display: flex; /*ALINHAR UM ITEM AO LADO DO OUTRO*/
+    flex-direction: column; /*ALINHAR EM COLUNA*/
+    gap: 18px; /*ESPAÇAMENTO ENTRE OS ITENS*/
+    align-items: center; /*ALINHAR NO CENTRO  EIXO Y*/
+    
+}
+
+.cabecalho img{
+    width: 200px; /*LARGURA DA IMG*/
+    height: 200px; /*ALTURA DA IMG*/
+    border-radius: 100%; /*ARREDONDAR AS BORDAS*/
+    border: black solid 3px; /*BORDA*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px; /*SOMBRA*/
+}
+
+.cabecalho h1{
+    font-size: 20px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.btns a{
+    display: flex;
+    justify-content: center;/*ALINHAR EIXO X*/
+    padding: 16px;
+    border-radius: 58px;
+    border: black solid 2px;
+    box-shadow: black 5px 5px 0px;
+    width: 235px;
+    background-color: rgb(219, 32, 219);
+    color: black;
+    text-decoration: none;
+}
